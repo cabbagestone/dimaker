@@ -10,4 +10,27 @@ Dimaker aims to be a streamlined decision assistance software for an individual 
 - Informed entities
 - Incrementalism
 
+## Features
+
+- Decisions
+- Factors
+- Candidates
+- Aspects
+
+### Decisions
+
+Decisions represent a set of data necessary to determine an appropriate course of action.
+
+### Factors
+
+Factors represent the parts of a decision that should be considered when deciding which action to take.
+
+### Candidates
+
+Decision candidates represent the potential options present within a decision.
+
+### Aspects
+
+An Aspect is the intersection between a candidate and a factor - what describes the factor for this candidate?
+
 

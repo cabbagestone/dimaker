@@ -1,0 +1,55 @@
+.design-header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: -10px;
+    text-align: center;
+}
+
+.design-header .version-details {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.design-header table {
+    border-collapse: collapse;
+}
+
+.design-header table tr {
+    border-bottom: #000000 solid 1px;
+}
+
+.design-header table td, .design-header table th {
+    padding: 0 10px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.content .dialog {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #222222;
+}
+
+.content .dialog .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content .dialog .title h2 {
+    margin-left: 10px;
+}
+
+.content .dialog .title .exit {
+    cursor: pointer;
+    border: 1px solid #222222;
+    border-radius: 100%;
+    padding: 5px 8px;
+    margin-right: 10px;
+}

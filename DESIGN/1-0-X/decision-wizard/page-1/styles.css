@@ -26,12 +26,13 @@
 
 .content {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .content .dialog {
-    border: 1px solid #000000;
     border-radius: 10px;
-    box-shadow: 0 0 10px #222222;
+    box-shadow: 0 0 10px #888888;
 }
 
 .content .dialog .header {
@@ -40,12 +41,12 @@
     border-radius: 10px 10px 0 0;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #f1f1f1;
 }
 
 .content .dialog .header .title {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .content .dialog .header .title i {
@@ -65,16 +66,16 @@
     margin-right: 10px;
 }
 
-.content .dialog .body {
-    padding: 10px;
-}
-
 .content .dialog .footer {
     display: flex;
-    justify-content: flex-end;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 5px 15px 15px;
     border-radius: 0 0 10px 10px;
-    background-color: #f1f1f1;
+}
+
+.content .dialog .footer .movement {
+    display: flex;
+    align-items: center;
 }
 
 .content .dialog .footer button {
@@ -96,4 +97,45 @@
 .content .dialog .footer .next {
     background-color: #4CAF50;
     color: #ffffff;
+}
+
+
+.content .dialog .body {
+    min-width: 350px;
+    padding: 30px;
+}
+
+.content .dialog .body > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .dialog .body label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.content .dialog .body .decision-title-form {
+    margin-bottom: 30px;
+}
+
+.content .dialog .body .decision-title-form input {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.content .dialog .body .decision-description-form textarea {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 200px;
 }

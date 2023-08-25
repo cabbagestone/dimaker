@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dimaker Design v1-0-0</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/70f130f155.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="design-header">
+        <h1>Dimaker Design</h1>
+        <div class="version-details">
+          <table>
+            <tr>
+              <th>Version</th>
+              <th>Last Updated</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>x.x.x</td>
+              <td>mm/dd/yyyy</td>
+              <td>*NOTES*</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="content">
+        <div class="dialog">
+          <div class="header">
+            <div class="title">
+              <i class="fa-regular fa-2xl fa-square-plus"></i>
+              <h2>Create Decision</h2>
+            </div>
+            <i class="exit fa-solid fa-xl fa-xmark"></i>
+          </div>
+          <div class="body">
+            <div class="step-description">
+              <h3>Decision Factors</h3>
+              <p>What areas do you need to consider while making this decision?</p>
+            </div>
+            <div class="options">
+              <div class="add">
+                <label for="add-option">Add Factor</label>
+                <div class="form">
+                  <input type="text" id="add-option" />
+                  <button class="add-option">Add</button>
+                </div>
+              </div>
+              <div class="existing">
+                <h4>Existing Factors</h4>
+                <div class="list">
+                  <div class="option">
+                    <i class="fa-solid fa-grip-lines fa-l"></i>
+                    <p>Factor 1</p>
+                    <i class="fa-solid fa-lg fa-xmark"></i>
+                  </div>
+                  <div class="option">
+                    <i class="fa-solid fa-grip-lines fa-l"></i>
+                    <p>Factor 2</p>
+                    <i class="fa-solid fa-lg fa-xmark"></i>
+                  </div>
+                  <div class="option">
+                    <i class="fa-solid fa-grip-lines fa-l"></i>
+                    <p>Factor 3</p>
+                    <i class="fa-solid fa-lg fa-xmark"></i>
+                  </div>
+                  <div class="option">
+                    <i class="fa-solid fa-grip-lines fa-l"></i>
+                    <p>Factor 4</p>
+                    <i class="fa-solid fa-lg fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <button class="cancel">Cancel</button>
+            <div class="movement">
+              <button class="back">Back</button>
+              <button class="next">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

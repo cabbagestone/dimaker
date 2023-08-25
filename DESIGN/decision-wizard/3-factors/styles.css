@@ -121,13 +121,14 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin-bottom: -5px;
-    overflow-wrap: break-word;
 }
 
 .content .dialog .body .step-description p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
+    width: 300px;
+    overflow-wrap: break-word;
 }
 
 .content .dialog .body .options .add {

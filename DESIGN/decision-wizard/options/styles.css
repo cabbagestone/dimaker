@@ -1,0 +1,199 @@
+.design-header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: -10px;
+    text-align: center;
+}
+
+.design-header .version-details {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.design-header table {
+    border-collapse: collapse;
+}
+
+.design-header table tr {
+    border-bottom: #000000 solid 1px;
+}
+
+.design-header table td, .design-header table th {
+    padding: 0 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.highlight {
+    background-color: #ff0000;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .dialog {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #888888;
+}
+
+.content .dialog .header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content .dialog .header .title {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.content .dialog .header .title i {
+    padding: 5px 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content .dialog .header .title h2 {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .dialog .header .exit {
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.content .dialog .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 15px 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+.content .dialog .footer .movement {
+    display: flex;
+    align-items: center;
+}
+
+.content .dialog .footer button {
+    cursor: pointer;
+    padding: 10px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.content .dialog .footer .cancel {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.content .dialog .footer .next {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+
+.content .dialog .body {
+    min-width: 350px;
+    padding: 0px 30px;
+}
+
+.content .dialog .body .step-description h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+
+.content .dialog .body .step-description p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content .dialog .body .options .add {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .dialog .body .options .add label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.content .dialog .body .options .add .form {
+    display: flex;
+}
+
+.content .dialog .body .options .add .form input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin: 0 15px
+}
+
+
+.content .dialog .body .options .add .form button {
+    padding: 10px 16px;
+    border-radius: 5px;
+    width: fit-content;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.content .dialog .body .options .existing {
+    margin-bottom: 15px;
+}
+
+.content .dialog .body .options .existing h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.content .dialog .body .options .existing .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content .dialog .body .options .existing .list .option {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content .dialog .body .options .existing .list .option p {
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 10px;
+}

@@ -44,10 +44,9 @@ The user should be able to create a high level decision overview within minutes.
 - The user should be able to quickly enter the Wizard quickly and conveniently within the software.
 - The Wizard should have four steps: 
 1. Defining the Decision - The general overview of what needs to be decided
-2. Defining the Action Candidates - What the possible courses of action are
-3. Defining the Decision Factors - Considerations for making the decision
-4. Defining the Candidate Factors - The specifics of each action candidate
-- The Wizard should finish by taking the user to the Decision View Page
+2. Defining the Options - What the possible courses of action are
+3. Defining the Factors - Considerations for making the decision
+- The Wizard should finish by taking the user to the Decision View Page, where they can edit the option factors
 
 ### Decision Database
 
@@ -73,6 +72,7 @@ The User should be able to open a decision and see all of it's details clearly
 - The User should be able to see a decisions title clearly
 - The User should be able to clearly see a table where the columns represent courses of action, and the rows represent factors, and the intersection is the details to be considered for each.
 - The User should be easily able to navigate, scroll, and see cells for large tables.
+- The User should be easily able to edit the Option Factors in plaintext
 
 ### User Account Feature
 
@@ -153,8 +153,8 @@ I'm assuming, primarily, that nobody is going to need or use the software right 
 
 - Decisions
 - Factors
-- Candidates
-- Candidate Factors
+- Options
+- Options Factors
 
 ### Decisions
 
@@ -164,12 +164,12 @@ Decisions represent a set of data necessary to determine an appropriate course o
 
 Factors represent the parts of a decision that should be considered when deciding which action to take.
 
-### Candidates
+### Options
 
-Decision candidates represent the potential options present within a decision.
+Decision options represent the possible courses of action.
 
-### Candidate Factors
+### Option Factors
 
-An Aspect is the intersection between a candidate and a factor - what describes the factor for this candidate?
+An Option Factor is the intersection between a option and a factor - what describes the factor for this candidate?
 
 
